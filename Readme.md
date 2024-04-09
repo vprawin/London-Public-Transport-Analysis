@@ -1,7 +1,7 @@
 ﻿
 
 # <a name="_toc161182906"></a>**Abstract:**
-` `Assessing the efficiency and impact of London's railway network is crucial for understanding its role in Great Britain's economic, social, and financial spheres. This study utilizes data from Transport for London's 2013 records, encompassing DLR, Overground, and Tube categories, to conduct a thorough network analysis. The findings reveal a network characterized by optimization of coverage over redundancy, potentially affecting its resilience to disruptions. Degree Centrality distribution highlights varied connections among nodes, emphasizing the need for congestion management at crucial hubs. Additionally, analysis of Betweenness Centrality identifies pivotal nodes influencing network flow, guiding strategic planning efforts. Furthermore, the study examines the network's modularity, clustering coefficient, and algorithms to identify community structures and potential enhancements. Strategic recommendations focus on enhancing core resilience, optimizing design for efficiency and redundancy, and leveraging localized connectivity to enhance operational resilience. In conclusion, the London transport network demonstrates a balanced design aimed at optimizing coverage, efficiency, and resilience. Insights from this analysis provide a roadmap for targeted enhancements to ensure operational reliability, robustness, and service quality, effectively addressing present and future challenges.
+Assessing the efficiency and impact of London's railway network is crucial for understanding its role in Great Britain's economic, social, and financial spheres. This study utilizes data from Transport for London's 2013 records, encompassing DLR, Overground, and Tube categories, to conduct a thorough network analysis. The findings reveal a network characterized by optimization of coverage over redundancy, potentially affecting its resilience to disruptions. Degree Centrality distribution highlights varied connections among nodes, emphasizing the need for congestion management at crucial hubs. Additionally, analysis of Betweenness Centrality identifies pivotal nodes influencing network flow, guiding strategic planning efforts. Furthermore, the study examines the network's modularity, clustering coefficient, and algorithms to identify community structures and potential enhancements. Strategic recommendations focus on enhancing core resilience, optimizing design for efficiency and redundancy, and leveraging localized connectivity to enhance operational resilience. In conclusion, the London transport network demonstrates a balanced design aimed at optimizing coverage, efficiency, and resilience. Insights from this analysis provide a roadmap for targeted enhancements to ensure operational reliability, robustness, and service quality, effectively addressing present and future challenges.
 
 # <a name="_toc161182907"></a>**Introduction:**
 <a name="_hlk161173008"></a>Network analysis of London's rail transportation is vital for assessing efficiency and impact on Great Britain's factors. Economic, social, and financial aspects thrive with a robust transportation network. Data from Transport for London's website, collected in 2013, includes DLR, Overground, and Tube categories. Nodes represent London train stations, and edges signify existing routes. The multiplex network incorporates three layers: aggregated weighted graphs of underground lines, Overground connections, and DLR stations. Raw data and station coordinates are available, along with multiplex networks reflecting real disruptions. Visit https://www.tfl.gov.uk/ for details.
@@ -25,7 +25,7 @@ We have found the below insights and literature documents related to the London 
 
 ## <a name="_toc161182909"></a>**Literature Review:**
 
-`        `The London train network is critical to the city's economy, transporting an estimated 1.1 million people daily. Transport for London (TfL) operates the London Underground, Docklands Light Railway (DLR), and Tramlink. The Tube, which spans 402 kilometres and operates 11 lines, handles an amazing 5 million journeys per day. To ensure its seamless operation, a complete network analysis and disruption free networking is required. This includes reviewing its performance, capacity, and areas for improvement. By analysing the network', we would like to inference on the potential efficiency increase, reduce congestion, and meet the evolving demands of London people. 
+The London train network is critical to the city's economy, transporting an estimated 1.1 million people daily. Transport for London (TfL) operates the London Underground, Docklands Light Railway (DLR), and Tramlink. The Tube, which spans 402 kilometres and operates 11 lines, handles an amazing 5 million journeys per day. To ensure its seamless operation, a complete network analysis and disruption free networking is required. This includes reviewing its performance, capacity, and areas for improvement. By analysing the network', we would like to inference on the potential efficiency increase, reduce congestion, and meet the evolving demands of London people. 
 
 A study demonstrates the resilience of rail network is influenced by the speed of backup restoration failure in network vulnerability during peak hours increases 63% of increase in passenger delays compared to off- peak hours. While studies have made substantive contributions to research knowledge of the resilience of rail networks, they are limited in their approach to analysing the dynamic knock-on effect of train disruptions on timetabling, train and passenger delays and how these propagate across the interdependent network. Also, these existing studies are limited in their approach to the study of the impact of system-of-systems interdependencies on the resilience of rail networks and their practical application to real-word networks, with a dearth in research literature of robust methodologies and models for resilience assessment of large, complex rail networks at regional and national scale. *Ilalokhoin et al. (2023)*
 
@@ -84,9 +84,7 @@ Fig 2.3.3.2 Network visualization - betweenness centrality on London rail transp
 
 Fig 2.3.4.1 concentration of closeness centrality values within a specific range, suggesting uniformity in station connections.
 
-![A colorful diagram of a network
-
-Description automatically generated with medium confidence](Aspose.Words.80cb68b6-24c9-4868-987b-77d308e25820.007.png)
+![Pic](Image/Aspose.Words.80cb68b6-24c9-4868-987b-77d308e25820.007.png)
 
 Fig 2.3.4.2 Network visualization - closeness centrality on London rail transportation
 
@@ -141,15 +139,11 @@ Fig 2.3.10.1 Network visualization of community generated through Louvain Method
 
 <a name="_hlk161173176"></a>The Girvan-Newman algorithm in network science identifies communities by iteratively removing edges with high betweenness centrality, dividing the graph into denser communities guided by the modularity score. Detecting 17 communities within London's transport network suggests significant specialization, potentially representing geographical areas or transport lines. High modularity scores reflect strong community structure, guiding optimization strategies for enhanced connectivity and infrastructure investments. Resilience planning considers community detection to mitigate disruptions, ensuring alternative routes for network functionality. Leveraging Girvan-Newman insights enhances network efficiency and resilience in London's transport.
 
-![A graph with a line
-
-Description automatically generated](Aspose.Words.80cb68b6-24c9-4868-987b-77d308e25820.009.png)
+![Pic](Image/Aspose.Words.80cb68b6-24c9-4868-987b-77d308e25820.009.png)
 
 Fig 2.3.11.1 Modularity Trend based on Iterations
 
-![A map of a network
-
-Description automatically generated](Aspose.Words.80cb68b6-24c9-4868-987b-77d308e25820.010.png)
+![Pic](Image/Aspose.Words.80cb68b6-24c9-4868-987b-77d308e25820.010.png)
 
 Fig 2.3.11.2 Network visualization of community generated through Girvan-Newman Algorithm
 
